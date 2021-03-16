@@ -1,5 +1,6 @@
 .listing {
-    width: 395px;
+    width: 100%;
+    max-width: 395px;
     display: flex;
     flex-direction: column;
     margin-bottom: 2rem;
@@ -10,12 +11,12 @@
     height: 269px;
     object-fit: cover;
     border-radius: 24px;
-    margin-bottom: 1rem;
+    margin-bottom: .75rem;
 }
 
 .title {
     color: var(--text-color-dark);
-    font-size: 1rem;
+    font-size: 0.875rem;
 }
 
 .super-host,
@@ -26,7 +27,7 @@
 .super-host {
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 0.75rem;
+    font-size: 0.625rem;
     padding: .5rem .75rem;
     border: var(--text-color-med) 1px solid;
     border-radius: 2rem;
@@ -36,7 +37,7 @@
 .type,
 .rating,
 .beds {
-    font-size: 0.875rem;
+    font-size: 0.75rem;
 }
 
 .type,

@@ -1,10 +1,14 @@
 import React from 'react'
 import './Layout.css'
 
-function Layout({children}) {
+function Layout({ children, title="Windbnb" }) {
     return (
         <div className="container">
-            {children}
+
+            <main>
+                {children}
+            </main>
+            
         </div>
     )
 }
