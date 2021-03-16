@@ -1,0 +1,79 @@
+.listing {
+    width: 395px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.photo {
+    width: inherit;
+    height: 269px;
+    object-fit: cover;
+    border-radius: 24px;
+    margin-bottom: 1rem;
+}
+
+.title {
+    color: var(--text-color-dark);
+    font-size: 1rem;
+}
+
+.super-host,
+.rating {
+    color: var(--text-color-med);
+}
+
+.super-host {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.75rem;
+    padding: .5rem .75rem;
+    border: var(--text-color-med) 1px solid;
+    border-radius: 2rem;
+    margin-right: 0.75rem;
+}
+
+.type,
+.rating,
+.beds {
+    font-size: 0.875rem;
+}
+
+.type,
+.beds {
+    color: var(--text-color-light);
+}
+
+.type {
+    margin-right: .25rem;
+}
+
+.listing-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.listing-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 0.75rem;
+    justify-content: space-between;
+}
+
+.details-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.rating {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.rating-icon {
+    margin-right: .25rem;
+    color: var(--primary-color);
+}
