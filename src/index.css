@@ -6,8 +6,8 @@
   --text-color-light: #828282;
   --text-color-disabled: #BDBDBD;
 
-  --primary-color: EB5757;
-  --primary-color-tint: EB5757, 90%;
+  --primary-color: #EB5757;
+  --primary-color-tint: #EB5757, 90%;
 }
 
 *,

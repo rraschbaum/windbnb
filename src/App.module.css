@@ -1,0 +1,13 @@
+.Listings {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (min-width: 700px) {
+    .Listings {
+        flex-direction: row;
+    };
+}

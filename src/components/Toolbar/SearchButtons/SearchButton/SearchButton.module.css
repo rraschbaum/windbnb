@@ -1,0 +1,29 @@
+.SearchButton {
+    height: 100%;
+    padding: 0 16px;
+    background: #ffffff;
+    font-weight: 400;
+    font-size: .875rem;
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+    border: none;
+    border-radius: inherit;
+    cursor: pointer;
+}
+
+.SearchButton input {
+    border: 1px solid red;
+}
+
+.SearchButton svg {
+    margin: 0;
+    padding: 0;
+    color: var(--primary-color);
+    vertical-align: middle;
+    /* border: solid red 1px; */
+}
+
+span {
+    width: 1px;
+    background-color: #F2F2F2; 
+}

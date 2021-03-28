@@ -1,0 +1,24 @@
+.SearchControl {
+    display: inline-block;
+    padding-left: 26px;
+    height: 100%;
+}
+
+.Contents {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.Label {
+    font-size: 11px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: var(--text-color-dark);
+}
+
+.Input {
+    font-size: 14px;
+}

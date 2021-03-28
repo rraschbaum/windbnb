@@ -1,0 +1,26 @@
+.Listings {
+    width: 100%;
+    /* margin: 0 auto 2rem; */
+    box-sizing: border-box;
+}
+
+@media (min-width: 750px) {
+    .Listings {
+        max-width: 45%;
+        flex-grow: 1;
+        flex-shrink: 1;
+        /* flex: 1 0 50%; */
+    }
+}
+
+@media (min-width: 900px) {
+    .Listings {
+        max-width: 30%;
+        /* flex: 1 0 33%; */
+        /* max-width: 45%;
+        margin: 10px;
+        flex-grow: 1;
+        flex-shrink: 1; */
+    }
+}
+

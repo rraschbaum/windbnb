@@ -1,0 +1,13 @@
+.SearchButtons {
+    display: flex;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    height: 55px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.SearchButtons:hover {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.07);
+    transition: box-shadow 0.3s ease-in-out;
+    transition: scale 0.3s ease-in-out;
+}

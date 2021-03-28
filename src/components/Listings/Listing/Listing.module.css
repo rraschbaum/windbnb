@@ -1,12 +1,9 @@
-.listing {
+.Listing {
     width: 100%;
-    max-width: 395px;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 2rem;
+    margin: 0 auto 2rem;
 }
 
-.photo {
+.Photo {
     width: inherit;
     height: 269px;
     object-fit: cover;
@@ -14,47 +11,51 @@
     margin-bottom: .75rem;
 }
 
-.title {
+.Title {
     color: var(--text-color-dark);
     font-size: 0.875rem;
 }
 
-.super-host,
-.rating {
+.SuperHost,
+.Rating {
     color: var(--text-color-med);
 }
 
-.super-host {
+.SuperHost {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 0.625rem;
-    padding: .5rem .75rem;
+    padding: .4rem .5rem;
     border: var(--text-color-med) 1px solid;
-    border-radius: 2rem;
+    border-radius: .75rem;
     margin-right: 0.75rem;
 }
 
-.type,
-.rating,
-.beds {
+.SuperHostHidden {
+    display: none;
+}
+
+.Type,
+.Rating,
+.Beds {
     font-size: 0.75rem;
 }
 
-.type,
-.beds {
+.Type,
+.Beds {
     color: var(--text-color-light);
 }
 
-.type {
+.Type {
     margin-right: .25rem;
 }
 
-.listing-info {
+.ListingInfo {
     display: flex;
     flex-direction: column;
 }
 
-.listing-details {
+.ListingDetails {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -62,19 +63,25 @@
     justify-content: space-between;
 }
 
-.details-right {
+.DetailsRight {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.rating {
+.Rating {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.rating-icon {
+.RatingIcon {
     margin-right: .25rem;
     color: var(--primary-color);
 }
+
+/* @media (min-width: 700px) {
+    .Listing {
+        width: 100%;
+    }
+} */

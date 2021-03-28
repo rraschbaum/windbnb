@@ -1,9 +1,9 @@
 import React from 'react'
-import './Layout.css'
+import classes from './Layout.module.css'
 
 function Layout({ children, title="Windbnb" }) {
     return (
-        <div className="container">
+        <div className={classes.Container}>
 
             <main>
                 {children}

@@ -1,0 +1,28 @@
+.Toolbar {
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+.Logo {
+    margin-bottom: 2.5rem;
+    align-self: flex-start;
+}
+
+@media (min-width: 700px) {
+    .Toolbar {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 2rem;
+    }
+
+    .Logo {
+        align-self: center;
+        margin: 0;
+    }
+}
